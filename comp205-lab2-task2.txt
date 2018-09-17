@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<h1>Jennifer Pedersen</h1>
+</head>
+
+<body>
+<p>contact info: jennifer.pedersen@student.sl.on.ca</p>
+<p>education: algonquin college(uncompleted): Computer programming</p>
+<p>st lawrence college: cnts</p>
+<p>work history: subway, tim hortons, wendys</p>
+
+<p>interest include</p>
+<li>dogs</li>
+<li>netflix</li>
+<li>reading</li>
+
+<a href="https://github.com/pedersen13/code.git">jens github</a>
+<img src="libraries/pictures/github.PNG" alt="github">
+</body>
+
+</html>
