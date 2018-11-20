@@ -1,12 +1,15 @@
 * {
     margin: 0;
     padding: 0;
-
+    
 }
 
+
 body{
+    padding:0;
+    margin:0;
     background-color: black;
-    
+ 
 }
 
 div.menu{
@@ -14,6 +17,7 @@ text-align: center;
 background-color: white;
 color: black;
 font-size: 20px;
+
 }
 
 div.intro{
@@ -21,10 +25,24 @@ div.intro{
 text-align: center;   
 color: white;
 
-width: 400px;
+width: 200px;
 padding: 20px;
 border: 1px solid blue;
-margin: 50px 70px 50px 300px;
+margin: 100px 1000px 100px 650px;
+overflow-y:scroll;
+}
 
+div.full-box{
+background-color: red;
+
+}
+
+div.middle-box{
+background-color: green;   
+color:white;
+text-align: center;
+width: 400px;
+padding: 40px;
+margin: 50px 1000px 50px 550px;
 
 }
