@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+body{
+    background-color: black;
+    
+}
+
+div.menu{
+text-align: center;
+background-color: white;
+color: black;
+font-size: 20px;
+}
+
+div.intro{
+
+text-align: center;   
+color: white;
+
+width: 400px;
+padding: 20px;
+border: 1px solid blue;
+margin: 50px 70px 50px 300px;
+
+
+}
