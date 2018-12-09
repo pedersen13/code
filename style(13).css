@@ -1,0 +1,54 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+body{
+background-color: black;    
+}
+
+div{
+background-color: white;
+height: 300px;
+}
+
+@media only screen and (min-width:1200px){
+
+div{
+width:49%;
+font:20px;    
+background-color: white;
+}
+
+div.FirstDiv{
+float: left;
+}
+
+div.SecondDiv{
+float: right; 
+  }
+
+}
+
+@media only screen and (max-width:768px){
+
+.div{
+display: flex;
+flex-direction:column;
+width:100%;    
+font:16px;
+}
+
+
+}
+
+@media only screen and (max-width:350px){
+
+div.FirstDiv{
+background-color:blue;    
+}
+div.SecondDiv{
+background-color: yellow;    
+}
+
+}
