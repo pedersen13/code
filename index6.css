@@ -1,0 +1,245 @@
+/*********************** begining body setting *************************/
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    height: auto;
+    margin:0;
+}
+/****************************** finishing body setting ************************8**/
+
+/***************************** begining main header setting *************************/
+ 
+#main_and_top_div {
+    height: 150px;
+    background-color: whitesmoke;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 25%;
+    opacity: 0.8;
+}
+
+
+#top_ads_box {
+    background-color: black;
+    height: 20px;
+    padding: 4px;    
+    text-align: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+#top_ads_box a {
+    color: whitesmoke;
+    font-size: 17px;
+    font-weight: normal; 
+    word-spacing: 3px;  
+    text-shadow: 2px 2px 2px rgb(252, 2, 2);
+}
+#main_and_top_div h1 {
+    font-size: 40px;
+    margin-top: 40px;
+    text-align: center;
+}
+#menu_box {
+    height:40px;
+    background-color: black;
+    margin-top: 60px;
+    text-align: left;
+    position: fixed;
+    top: 50px;
+    width: 100%;
+    padding-left: 0px;
+    border: 1px solid white;
+}
+#menu_box ul {
+    margin: 0px;
+    padding: 0px;
+    list-style: none; 
+}
+#menu_box ul li {
+    float: left;
+    background-color: black;
+    height: 40px;
+    width: 200px;
+    opacity: 0.9;
+    line-height: 40px;
+    text-align: center;
+    font-size: 18px;    
+}
+#menu_box ul li a {
+    font-family: arial;
+    color: white;
+    text-decoration: none;
+    display: block;
+    border: 1px solid white;
+    text-shadow: 2px 2px 2px rgb(241, 25, 231);
+}
+#menu_box ul li a:hover {
+    background-color: green;
+}
+#menu_box ul li ul li {
+    display: none;
+    border-radius: 4px;
+}
+#menu_box ul li:hover ul li {
+    display: block;
+}
+/*********************** finishing main header setting ************************/
+
+#section2 #body1 {
+    height: 800px;
+    margin-top: 200px;    
+}
+
+
+
+
+#body1-1 {
+    height: 350px;
+    width: auto;
+}
+#body1-2 {
+    height: 350px;
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 50px;    
+    overflow: auto;
+    border: solid;
+}
+#body1-2 #title{
+text-align: center;
+font: bold;
+font: 23px;
+
+}
+
+#body1-1 img, #body2-1 img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 350px;
+    width: auto; 
+} 
+#body1-2 h2 {
+    text-align: center;
+    line-height: 1.7;
+    font-size: 32px;
+}
+#body1-2 h3 {
+    text-align: center;
+    line-height: 1.7;
+    margin-top: 10px;
+    font-size: 25px;    
+    text-size-adjust: auto;
+}
+#section2 #body2 {
+    height: 800px;
+    margin-top: 50px;
+    text-align: center;    
+}
+#body2-1 {
+    height: 350px;
+    width: 100%;
+    margin: 0 auto;
+}
+#body2-2 {
+    height: 350px;
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 70px;        
+    overflow: auto;
+}
+#body2-2 h2 {
+    text-align: center;
+    line-height: 1.7;
+    font-size: 32px;
+}
+#body2-2 h3 {
+    text-align: center;
+    line-height: 1.7;
+    margin-top: 10px;
+    font-size: 25px;    
+    text-size-adjust: auto;
+}
+#body3 {
+    height: 350px;      
+    overflow: auto;      
+}
+#body3 video {
+  
+    display: block;
+    width: auto;
+    margin:0px auto;
+    z-index: -5;
+}
+
+
+#body4-footer {
+    width: 100%;
+    margin: 100px 0px 0px auto;
+    background-color: rgb(190, 188, 188);
+    text-align: center;
+    z-index: -4;
+}
+#footer-menubox, #register-box {
+    display: inline-block;       
+    width: auto;  
+    padding: 30px 30px;
+    margin: auto 30px;
+}
+#footer-menubox ul li {
+    list-style: none;
+}
+#footer-menubox ul li a {
+    padding: 10px;
+    font-size: 18px;
+    font-family: Arial;
+    color: black;
+    font-weight: bold;
+    line-height: 36px;
+    text-decoration: none;
+}
+#footer-menubox ul li a:hover {
+    background-color: white;
+}
+#register-box h3 {
+    font-family: arial;
+    font-size: 18px; 
+    color: black; 
+    font-weight: bold;
+    line-height: 15px;
+    text-align: left;
+}
+#register-box label {
+    font-family: arial;
+    font-size: 18px; 
+    color: black; 
+    font-weight: bold;
+    line-height: 13px;
+}
+.submit-button {
+    width: 90px;
+    height: 25px;
+    font-weight: bold;
+    font-size: 17px;    
+    border-radius: 15%;
+    background-color: skyblue;
+}
+.submit-button:hover {
+    background-color: black;
+    color: white;
+}
+.holder {
+    height: 20px;
+    background-color: pink;
+}
+.holder:hover {
+    background-color: skyblue;
